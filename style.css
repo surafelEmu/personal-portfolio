@@ -1,0 +1,222 @@
+ /*
+      SPACING SYSTEM (px)
+      2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+      FONT SIZE SYSTEM (px)
+      10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+      */
+      /* 
+      MAIN COLOR: #f1f7f7
+      SECOUNDARY COLOR: #00866d
+      GREY COLOR: #343a40
+      */
+
+    
+      * {
+        margin: 0 ;
+        padding: 0 ;
+        box-sizing: border-box;
+        color: #343a40;
+     
+        font-family: 'Arimo', serif;
+        }
+    
+        p {
+            color: rgb(107, 98, 98);
+        }
+    
+        html {
+            font-size: 62.5%;
+            scroll-behavior: smooth;
+        }
+    
+        html, body {
+            max-width: 100%;
+            overflow-x: hidden;
+            background-color: #eeedeb;
+        }
+    
+        .body {
+            margin-inline: 10rem;
+        }
+
+        .container {
+            font-size: 2.2rem;
+        }
+
+        nav {
+            padding-block: 3rem;
+            padding-left: 75%;
+            display: flex;
+            justify-content: space-around;
+            font-size: 1.8rem;
+        }
+
+        nav a {
+            text-decoration: none;
+        }
+
+        .heading {
+            font-size: 4.2rem;
+            width: 80%;
+            margin-inline: auto;
+            margin-block: 6.5rem;
+            text-align: center;
+            padding-inline: 21.4rem;
+        }
+
+        .heading small {
+            font-size: 2.6rem;
+            color: gray;
+        }
+
+        h1.heading_name {
+            
+            color: #C0C0C0;
+        }
+
+        .project_lead {
+            margin-inline: 10rem;
+            font-size: 1.8rem;
+            letter-spacing: 0.4rem;
+            display: flex;
+            margin-bottom: 20rem;
+        }
+
+        .project_lead h2 {
+            margin-block: auto;
+            margin-left: 2.5rem;
+        }
+
+        .projects {
+            padding-block: 5rem;
+            margin-inline: 7.5rem;
+            display: flex;
+            flex-direction: column;
+        }
+
+
+        .single_proj {
+            display: grid;
+            gap: 20rem;
+            grid-template-columns: 1fr 4fr;
+            padding-block: 7rem;
+            border-top: 0.2rem solid gray;
+            padding-inline: 1rem;
+        }
+        .projects_heading h3 {
+            font-size: 2.2rem;
+            margin-bottom: 10.5rem;
+            letter-spacing: 0.1rem;
+        }
+        .project_desc p {
+            font-size: 2rem;
+            color: gray;
+            margin-bottom: 2rem;
+        }
+
+        .proj_content_head {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .proj_links {
+            display: flex;
+            gap: 3rem;
+        }
+
+        .proj_links a.link {
+            font-size: 1.6rem;
+            padding-block: auto;
+            padding-block: 0.4rem;
+            /* margin-block: 1rem; */
+            text-decoration: none;
+            border-bottom: 0.1rem solid gray;
+        }
+
+        .project_img img {
+            width: 100%;
+            margin-top: 7.5rem;
+        }
+
+        .proj_content_head p {
+            letter-spacing: 0.1rem;
+        }
+
+
+        /* .single_proj:last-child {
+            border-bottom: 0.2rem solid gray;
+        } */
+
+        .about {
+            margin-block: 20rem;
+            padding-block: 10rem;
+            background-color: #242424;
+            display: flex;
+            padding-inline: 10rem;
+        }
+
+        .about .text {
+            font-size: 4.2rem;
+            margin-right: 10.8rem;
+            margin-top: 1rem;
+        }
+
+        .about .text p:last-child {
+            margin-top: 4rem;
+        }
+
+        .expertise {
+            margin-inline: 10rem;
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20rem;
+        }
+
+        .exprtise_content p {
+            font-size: 2.4rem;
+            padding-block: 2.4rem;
+            border-top: 0.2rem solid gray;
+        }
+
+        .exprtise_content p {
+            letter-spacing: 0.1rem;
+            font-size: 2.4rem;
+            padding-block: 2.4rem;
+            border-top: 0.2rem solid gray;
+        }
+        .exprtise_content p:first-child {
+            margin-bottom: 4.5rem;
+        }
+
+        .exprtise_content p:last-child {
+            border-bottom: 0.2rem solid gray;
+        }
+
+        .expertise h3 {
+            letter-spacing: 0.2rem;
+            font-size: 3.2rem;
+            margin-top: 4.5rem;
+        }
+
+
+        .contact {
+            margin-inline: 10rem;
+            text-align: center;
+        }
+
+        .contact_links {
+            margin-block: 5rem;
+            display: flex;
+            flex-direction: column;
+            gap: 3rem;
+            letter-spacing: 0.1rem;
+        }
+
+        .contact_links a.techs {
+            text-decoration: none;
+        }
+
+        .contact h3 {
+            letter-spacing: 0.1rem;
+            font-size: 3rem;
+        }
