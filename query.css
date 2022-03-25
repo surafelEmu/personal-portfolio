@@ -1,0 +1,195 @@
+/* 
+
+@media (max-width: 81em) {
+    html {
+        font-size: 56.25%;
+    }
+    
+    .nav {
+        display: none;
+    }
+}
+
+@media (max-width: 73.5em) {
+   
+    .heading {
+        width: 86%;
+    }
+
+    .nav {
+        display: none;
+    }
+}
+
+
+@media (max-width: 67.5em) {
+   
+   html {
+       font-size: 52%;
+   }
+} */
+
+
+
+
+
+@media (max-width: 81em) {
+    html {
+        font-size: 56.25%;
+    }
+    
+    .nav {
+        display: none;
+    }
+}
+
+@media (max-width: 73.5em) {
+   
+    .heading {
+        width: 86%;
+    }
+
+    .nav {
+        display: none;
+    }
+}
+
+
+@media (max-width: 67.5em) {
+   
+   html {
+       font-size: 52%;
+   }
+}
+
+
+@media (max-width: 62.5em ) {
+    html {
+        font-size: 48%
+    }
+
+    .heading {
+        width: 90%
+    }
+
+    .project_img {
+        height: 45.6rem
+    }
+
+    .single_proj {
+        gap: 15rem
+    }
+}
+
+@media(max-width: 55em ) {
+    html {
+        font-size: 43%
+           }
+    .about img {
+        display: none ;
+    }
+
+    .about .text p {
+        text-align: center ;
+
+    }
+
+    .about .text {
+        margin: 0 ;
+ 
+    }
+
+    .heading {
+        width: 100% ;
+    }
+
+}
+
+@media(max-width: 44em) {
+    html {
+        font-size: 37%
+    }
+}
+
+
+@media(max-width: 38em) {
+    .single_proj {
+        gap: 10rem
+    }
+
+    .expertise {
+        flex-direction: column ;
+        text-align: center ;
+        gap: 5rem ;
+    }
+
+    .heading {
+        padding-inline: 15rem
+    }
+    .project_img {
+        max-height: 39rem
+    }
+}
+
+@media(max-width: 32em) {
+    html {
+        font-size: 32%
+    }
+    .single_proj {
+        gap: 5rem ;
+        grid: none ;
+        
+    }
+
+    .project_img {
+        max-height: 39rem
+    }
+
+
+    .projects_heading.fade-in {
+    display: flex ;
+    gap: 5rem
+}
+
+.project_desc {
+    display: flex ;
+    gap: 1.5rem ;
+    justify-content: space-around ;
+}
+
+.project_desc p {
+    font-size: 1.6rem
+}
+
+.projects_heading h3 {
+    margin-bottom: 5rem;
+}
+
+.project_img {
+    width: 90% ;
+    height: 60rem ;
+    margin-inline: auto ;
+}
+
+
+
+}
+
+@media(max-width: 25em) {
+    html {
+        font-size: 27% ;
+    }
+
+    .project_desc {
+    display: grid ;
+    grid-template-columns: 1fr 1fr ;
+    gap: 2rem ;
+    justify-content: flex-end ;
+    margin-inline: auto ;
+}
+
+.project_desc p {
+    font-size: 2rem ;
+    margin-bottom: 0rem
+}
+}
